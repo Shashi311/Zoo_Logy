@@ -24,16 +24,7 @@ Real-time Detection: Detects barcodes in real-time and displays the details inst
 Table Display: Presents the scanned barcode details in a structured table format.
 Single Scan: Ensures each barcode is listed only once in the table, even if scanned multiple times.
 
-# Folder Structer
 
-barcode-scanner/
-│
-├── index.html           # Main HTML file for the frontend
-├── index.css            # CSS file for styling the frontend
-├── index.js             # JavaScript file for frontend logic
-├── server.js            # Express server file
-├── package.json         # Node.js dependencies and scripts
-└── README.md            # Project documentation
 
 
 
