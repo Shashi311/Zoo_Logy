@@ -1,0 +1,47 @@
+   body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .viewport {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+  }
+  
+  #result {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  #start-scan {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  #barcode-table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #barcode-table, #barcode-table th, #barcode-table td {
+    border: 1px solid #333;
+  }
+  
+  #barcode-table th, #barcode-table td {
+    padding: 10px;
+    text-align: center;
+  }
