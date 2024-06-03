@@ -2,17 +2,17 @@
 This project allows users to scan a barcode using their device's camera and fetch detailed information about the corresponding animal from a backend server. The scanned barcode is sent to the server via a POST request, and the server responds with the animal's data stored in a MongoDB database. The retrieved data is then displayed in a styled card format in a new browser tab.
 
 # Tech Stack
-# Frontend:
+## Frontend:
 HTML5
 CSS3
 JavaScript
 
-# Backend:
+## Backend:
 Node.js
 Express.js
 MongoDB
 
-# External Libraries:
+## External Libraries:
 ZXing: A JavaScript library for decoding barcodes from video streams or images.
 
 Font Awesome: For icons used in the user interface.
